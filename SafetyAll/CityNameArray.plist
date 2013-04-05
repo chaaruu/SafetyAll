@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Mumbai</key>
+	<array>
+		<string>Azad Nagar</string>
+		<string>Goregaon</string>
+		<string>Andheri</string>
+		<string>Pali Hill</string>
+		<string>Ghatkopar</string>
+		<string>Tilak Nagar</string>
+		<string>Kurla</string>
+		<string>Saki Naka</string>
+		<string>Vikhroli</string>
+		<string>Vile Parle</string>
+		<string>Santa Cruz</string>
+		<string>Vidya Vihar</string>
+	</array>
+	<key>Solapur</key>
+	<array>
+		<string>Navipeth</string>
+		<string>Tilak Road</string>
+		<string>Laxmipeth</string>
+		<string>Satrastha</string>
+		<string>Aaditya nagar</string>
+		<string>Ramwadi</string>
+		<string>Jule Solapur</string>
+	</array>
+	<key>Kolhapur</key>
+	<array>
+		<string>Shahuwadi</string>
+		<string>Panhala</string>
+		<string>Shirol</string>
+		<string>Hatkalngda</string>
+		<string>Kagal</string>
+		<string>Radhanagari</string>
+		<string>Ajra</string>
+		<string>Chandgad</string>
+	</array>
+	<key>Nashik</key>
+	<array>
+		<string>Kalvan</string>
+		<string>Chandvad</string>
+		<string>Nandgaon</string>
+		<string>Malegaon</string>
+		<string>Satana</string>
+		<string>Surgana</string>
+		<string>Peint</string>
+		<string>Dindori</string>
+		<string>Sinnar</string>
+	</array>
+	<key>Pune</key>
+	<array>
+		<string>Khed (Ragurunagar)</string>
+		<string>Vadgaon</string>
+		<string>Baramati</string>
+		<string>Indapur</string>
+		<string>Sasvad</string>
+		<string>Welhe</string>
+		<string>Mulshi</string>
+		<string>Daund</string>
+		<string>Pimpri</string>
+		<string>Paud</string>
+	</array>
+	<key>Thane</key>
+	<array>
+		<string>Jawhar</string>
+		<string>Mokhada</string>
+		<string>Shahapur</string>
+		<string>Murbad</string>
+		<string>Vada</string>
+		<string>Palghar</string>
+		<string>Vasai</string>
+		<string>Vihar</string>
+		<string>Mandvi</string>
+		<string>Parali</string>
+		<string>Khodala</string>
+	</array>
+	<key>Aurangabad</key>
+	<array>
+		<string>Dhanora</string>
+		<string>Khuldabad</string>
+		<string>Sangvi</string>
+		<string>Kannad</string>
+		<string>Devgaon</string>
+		<string>Pesavar</string>
+		<string>Chouka</string>
+		<string>Alland</string>
+		<string>Andheri</string>
+	</array>
+	<key>Nagpur</key>
+	<array>
+		<string>Parseoni</string>
+		<string>Ramtek</string>
+		<string>Saoner</string>
+		<string>Narkher</string>
+		<string>Katol</string>
+		<string>Kamthi</string>
+		<string>Maunda</string>
+		<string>Kuhi</string>
+		<string>Umred</string>
+		<string>Lova</string>
+		<string>Bandra</string>
+	</array>
+	<key>Akola</key>
+	<array>
+		<string>Akot</string>
+		<string>Padsul</string>
+		<string>Bhond</string>
+		<string>Lakhpur</string>
+		<string>Kurankhed</string>
+		<string>Patur</string>
+		<string>Wadegaon</string>
+		<string>Balapur</string>
+		<string>Andur</string>
+	</array>
+	<key>Ahmednagar</key>
+	<array>
+		<string>Supe</string>
+		<string>Walki</string>
+		<string>Parner</string>
+		<string>Miri</string>
+		<string>Rahuri</string>
+	</array>
+</dict>
+</plist>

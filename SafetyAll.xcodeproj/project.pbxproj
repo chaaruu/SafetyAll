@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8025C22616F087A8008F3696 /* tv_enetr_name.png in Resources */ = {isa = PBXBuildFile; fileRef = 8025C22516F087A8008F3696 /* tv_enetr_name.png */; };
+		8025C22916F09F99008F3696 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 8025C22816F09F98008F3696 /* help.png */; };
+		8025C22B16F0A4D5008F3696 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 8025C22A16F0A4D5008F3696 /* home.png */; };
+		8025C22D16F0A552008F3696 /* map_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8025C22C16F0A551008F3696 /* map_logo.png */; };
+		8035426E16F1C2FF00EA9B7B /* alert_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8035426D16F1C2FF00EA9B7B /* alert_icon.png */; };
+		8084D6D016FD75810048AAFE /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8084D6CF16FD75810048AAFE /* TabBarController.m */; };
+		8084D6DA16FDC2E60048AAFE /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8084D6D916FDC2E60048AAFE /* libsqlite3.0.dylib */; };
+		8087E65B1701C04600D1E58B /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8087E65A1701C04600D1E58B /* MapView.m */; };
+		8087E65D1701C09A00D1E58B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087E65C1701C09A00D1E58B /* MapKit.framework */; };
+		8087E65F1701C0C100D1E58B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087E65E1701C0C100D1E58B /* CoreLocation.framework */; };
+		8093E04B170C100E006DBCC9 /* CityNameArray.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8093E04A170C100E006DBCC9 /* CityNameArray.plist */; };
+		8093E056170C5678006DBCC9 /* Services.m in Sources */ = {isa = PBXBuildFile; fileRef = 8093E055170C5678006DBCC9 /* Services.m */; };
+		809547D416FC6E3B000A8D09 /* Helpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 809547D316FC6E3B000A8D09 /* Helpline.m */; };
+		809547D716FC6E97000A8D09 /* Help.m in Sources */ = {isa = PBXBuildFile; fileRef = 809547D616FC6E97000A8D09 /* Help.m */; };
+		809547DA16FC6F6B000A8D09 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 809547D916FC6F6B000A8D09 /* Settings.m */; };
+		809547DD16FC7337000A8D09 /* FavoriteContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 809547DC16FC7337000A8D09 /* FavoriteContacts.m */; };
+		809547E016FC735C000A8D09 /* AddContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 809547DF16FC735C000A8D09 /* AddContact.m */; };
 		8095D86716F056E6001B2B7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8095D86616F056E6001B2B7D /* UIKit.framework */; };
 		8095D86916F056E6001B2B7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8095D86816F056E6001B2B7D /* Foundation.framework */; };
 		8095D86B16F056E6001B2B7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8095D86A16F056E6001B2B7D /* CoreGraphics.framework */; };
@@ -14,23 +31,81 @@
 		8095D87316F056E6001B2B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095D87216F056E6001B2B7D /* main.m */; };
 		8095D87716F056E6001B2B7D /* SafetyAllAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095D87616F056E6001B2B7D /* SafetyAllAppDelegate.m */; };
 		8095D87A16F056E6001B2B7D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8095D87816F056E6001B2B7D /* MainStoryboard.storyboard */; };
-		8095D87D16F056E6001B2B7D /* SafetyAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8095D87C16F056E6001B2B7D /* SafetyAllViewController.m */; };
+		8095D88916F05B38001B2B7D /* raisealarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D88816F05B38001B2B7D /* raisealarm.png */; };
+		8095D88B16F05B3D001B2B7D /* callpolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D88A16F05B3D001B2B7D /* callpolice.png */; };
+		8095D88D16F05B44001B2B7D /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D88C16F05B44001B2B7D /* cancel.png */; };
+		8095D88F16F05B4B001B2B7D /* cancelalarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D88E16F05B4B001B2B7D /* cancelalarm.png */; };
+		8095D89116F05B58001B2B7D /* addmore.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89016F05B58001B2B7D /* addmore.png */; };
+		8095D89316F05B5F001B2B7D /* button_register_onclick.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89216F05B5F001B2B7D /* button_register_onclick.png */; };
+		8095D89516F05B6D001B2B7D /* safetyalltag.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89416F05B6D001B2B7D /* safetyalltag.png */; };
+		8095D89716F05B99001B2B7D /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89616F05B99001B2B7D /* header.png */; };
+		8095D89916F05B9F001B2B7D /* settings_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89816F05B9F001B2B7D /* settings_logo.png */; };
+		8095D89B16F05BAF001B2B7D /* buttonsmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89A16F05BAF001B2B7D /* buttonsmall.png */; };
+		8095D89D16F05BB3001B2B7D /* call2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89C16F05BB3001B2B7D /* call2.png */; };
+		8095D89F16F05BB7001B2B7D /* path.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D89E16F05BB7001B2B7D /* path.png */; };
+		8095D8A116F05BBF001B2B7D /* safetylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D8A016F05BBF001B2B7D /* safetylogo.png */; };
+		8095D8A316F05BC5001B2B7D /* helpline_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8095D8A216F05BC4001B2B7D /* helpline_logo.png */; };
+		80A22F4C16F9C78B00AD917E /* SafetyAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A22F4B16F9C78B00AD917E /* SafetyAllViewController.m */; };
+		80A22F5316F9CFC700AD917E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80A22F5216F9CFC700AD917E /* Default-568h@2x.png */; };
+		80A22F5616F9DEAA00AD917E /* homePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A22F5516F9DEAA00AD917E /* homePage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8025C22516F087A8008F3696 /* tv_enetr_name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tv_enetr_name.png; sourceTree = "<group>"; };
+		8025C22816F09F98008F3696 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		8025C22A16F0A4D5008F3696 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		8025C22C16F0A551008F3696 /* map_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_logo.png; sourceTree = "<group>"; };
+		8035426D16F1C2FF00EA9B7B /* alert_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alert_icon.png; sourceTree = "<group>"; };
+		8084D6CE16FD75810048AAFE /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		8084D6CF16FD75810048AAFE /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		8084D6D916FDC2E60048AAFE /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		8087E6591701C04600D1E58B /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		8087E65A1701C04600D1E58B /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		8087E65C1701C09A00D1E58B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8087E65E1701C0C100D1E58B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8093E04A170C100E006DBCC9 /* CityNameArray.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityNameArray.plist; sourceTree = "<group>"; };
+		8093E054170C5678006DBCC9 /* Services.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Services.h; sourceTree = "<group>"; };
+		8093E055170C5678006DBCC9 /* Services.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Services.m; sourceTree = "<group>"; };
+		809547D216FC6E3B000A8D09 /* Helpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpline.h; sourceTree = "<group>"; };
+		809547D316FC6E3B000A8D09 /* Helpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpline.m; sourceTree = "<group>"; };
+		809547D516FC6E97000A8D09 /* Help.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Help.h; sourceTree = "<group>"; };
+		809547D616FC6E97000A8D09 /* Help.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Help.m; sourceTree = "<group>"; };
+		809547D816FC6F6B000A8D09 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		809547D916FC6F6B000A8D09 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		809547DB16FC7337000A8D09 /* FavoriteContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoriteContacts.h; sourceTree = "<group>"; };
+		809547DC16FC7337000A8D09 /* FavoriteContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoriteContacts.m; sourceTree = "<group>"; };
+		809547DE16FC735C000A8D09 /* AddContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddContact.h; sourceTree = "<group>"; };
+		809547DF16FC735C000A8D09 /* AddContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddContact.m; sourceTree = "<group>"; };
 		8095D86216F056E6001B2B7D /* SafetyAll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyAll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8095D86616F056E6001B2B7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8095D86816F056E6001B2B7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8095D86A16F056E6001B2B7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8095D86E16F056E6001B2B7D /* SafetyAll-Info.plist */ = {isa = PBXFileReference; path = "SafetyAll-Info.plist"; sourceTree = "<group>"; };
+		8095D86E16F056E6001B2B7D /* SafetyAll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SafetyAll-Info.plist"; sourceTree = "<group>"; };
 		8095D87016F056E6001B2B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8095D87216F056E6001B2B7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8095D87416F056E6001B2B7D /* SafetyAll-Prefix.pch */ = {isa = PBXFileReference; path = "SafetyAll-Prefix.pch"; sourceTree = "<group>"; };
-		8095D87516F056E6001B2B7D /* SafetyAllAppDelegate.h */ = {isa = PBXFileReference; path = SafetyAllAppDelegate.h; sourceTree = "<group>"; };
+		8095D87416F056E6001B2B7D /* SafetyAll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SafetyAll-Prefix.pch"; sourceTree = "<group>"; };
+		8095D87516F056E6001B2B7D /* SafetyAllAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafetyAllAppDelegate.h; sourceTree = "<group>"; };
 		8095D87616F056E6001B2B7D /* SafetyAllAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyAllAppDelegate.m; sourceTree = "<group>"; };
 		8095D87916F056E6001B2B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8095D87B16F056E6001B2B7D /* SafetyAllViewController.h */ = {isa = PBXFileReference; path = SafetyAllViewController.h; sourceTree = "<group>"; };
-		8095D87C16F056E6001B2B7D /* SafetyAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafetyAllViewController.m; sourceTree = "<group>"; };
+		8095D88816F05B38001B2B7D /* raisealarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = raisealarm.png; sourceTree = "<group>"; };
+		8095D88A16F05B3D001B2B7D /* callpolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callpolice.png; sourceTree = "<group>"; };
+		8095D88C16F05B44001B2B7D /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		8095D88E16F05B4B001B2B7D /* cancelalarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancelalarm.png; sourceTree = "<group>"; };
+		8095D89016F05B58001B2B7D /* addmore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addmore.png; sourceTree = "<group>"; };
+		8095D89216F05B5F001B2B7D /* button_register_onclick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_register_onclick.png; sourceTree = "<group>"; };
+		8095D89416F05B6D001B2B7D /* safetyalltag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetyalltag.png; sourceTree = "<group>"; };
+		8095D89616F05B99001B2B7D /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		8095D89816F05B9F001B2B7D /* settings_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_logo.png; sourceTree = "<group>"; };
+		8095D89A16F05BAF001B2B7D /* buttonsmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonsmall.png; sourceTree = "<group>"; };
+		8095D89C16F05BB3001B2B7D /* call2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call2.png; sourceTree = "<group>"; };
+		8095D89E16F05BB7001B2B7D /* path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path.png; sourceTree = "<group>"; };
+		8095D8A016F05BBF001B2B7D /* safetylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = safetylogo.png; sourceTree = "<group>"; };
+		8095D8A216F05BC4001B2B7D /* helpline_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpline_logo.png; sourceTree = "<group>"; };
+		80A22F4A16F9C77D00AD917E /* SafetyAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafetyAllViewController.h; sourceTree = "<group>"; };
+		80A22F4B16F9C78B00AD917E /* SafetyAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafetyAllViewController.m; sourceTree = "<group>"; };
+		80A22F5216F9CFC700AD917E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		80A22F5416F9DEAA00AD917E /* homePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = homePage.h; sourceTree = "<group>"; };
+		80A22F5516F9DEAA00AD917E /* homePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = homePage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +113,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8087E65F1701C0C100D1E58B /* CoreLocation.framework in Frameworks */,
+				8087E65D1701C09A00D1E58B /* MapKit.framework in Frameworks */,
+				8084D6DA16FDC2E60048AAFE /* libsqlite3.0.dylib in Frameworks */,
 				8095D86716F056E6001B2B7D /* UIKit.framework in Frameworks */,
 				8095D86916F056E6001B2B7D /* Foundation.framework in Frameworks */,
 				8095D86B16F056E6001B2B7D /* CoreGraphics.framework in Frameworks */,
@@ -47,6 +125,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8093E050170C4B70006DBCC9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8093E054170C5678006DBCC9 /* Services.h */,
+				8093E055170C5678006DBCC9 /* Services.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		8095D85716F056E5001B2B7D = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +154,9 @@
 		8095D86516F056E6001B2B7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8087E65E1701C0C100D1E58B /* CoreLocation.framework */,
+				8087E65C1701C09A00D1E58B /* MapKit.framework */,
+				8084D6D916FDC2E60048AAFE /* libsqlite3.0.dylib */,
 				8095D86616F056E6001B2B7D /* UIKit.framework */,
 				8095D86816F056E6001B2B7D /* Foundation.framework */,
 				8095D86A16F056E6001B2B7D /* CoreGraphics.framework */,
@@ -77,11 +167,9 @@
 		8095D86C16F056E6001B2B7D /* SafetyAll */ = {
 			isa = PBXGroup;
 			children = (
-				8095D87516F056E6001B2B7D /* SafetyAllAppDelegate.h */,
-				8095D87616F056E6001B2B7D /* SafetyAllAppDelegate.m */,
-				8095D87816F056E6001B2B7D /* MainStoryboard.storyboard */,
-				8095D87B16F056E6001B2B7D /* SafetyAllViewController.h */,
-				8095D87C16F056E6001B2B7D /* SafetyAllViewController.m */,
+				8095D88316F05A9D001B2B7D /* Applications */,
+				8095D88516F05AC7001B2B7D /* Controller */,
+				8095D88416F05AC0001B2B7D /* View */,
 				8095D86D16F056E6001B2B7D /* Supporting Files */,
 			);
 			path = SafetyAll;
@@ -90,12 +178,148 @@
 		8095D86D16F056E6001B2B7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8095D86E16F056E6001B2B7D /* SafetyAll-Info.plist */,
-				8095D86F16F056E6001B2B7D /* InfoPlist.strings */,
-				8095D87216F056E6001B2B7D /* main.m */,
-				8095D87416F056E6001B2B7D /* SafetyAll-Prefix.pch */,
+				8095D88716F05B0F001B2B7D /* Assets */,
+				8095D88616F05B04001B2B7D /* Configs */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8095D88316F05A9D001B2B7D /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				8095D87616F056E6001B2B7D /* SafetyAllAppDelegate.m */,
+				8095D87516F056E6001B2B7D /* SafetyAllAppDelegate.h */,
+			);
+			name = Applications;
+			sourceTree = "<group>";
+		};
+		8095D88416F05AC0001B2B7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8095D87816F056E6001B2B7D /* MainStoryboard.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8095D88516F05AC7001B2B7D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80A22F5A16F9F16A00AD917E /* NavigationControllers */,
+				80A22F4916F9BCFE00AD917E /* View Controllers */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8095D88616F05B04001B2B7D /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				8093E04A170C100E006DBCC9 /* CityNameArray.plist */,
+				8095D87416F056E6001B2B7D /* SafetyAll-Prefix.pch */,
+				8095D87216F056E6001B2B7D /* main.m */,
+				8095D86F16F056E6001B2B7D /* InfoPlist.strings */,
+				8095D86E16F056E6001B2B7D /* SafetyAll-Info.plist */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		8095D88716F05B0F001B2B7D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80A22F5216F9CFC700AD917E /* Default-568h@2x.png */,
+				8095D8A016F05BBF001B2B7D /* safetylogo.png */,
+				8035426D16F1C2FF00EA9B7B /* alert_icon.png */,
+				8025C22A16F0A4D5008F3696 /* home.png */,
+				8025C22816F09F98008F3696 /* help.png */,
+				8095D89C16F05BB3001B2B7D /* call2.png */,
+				8095D89E16F05BB7001B2B7D /* path.png */,
+				8095D8A216F05BC4001B2B7D /* helpline_logo.png */,
+				8095D89A16F05BAF001B2B7D /* buttonsmall.png */,
+				8095D89816F05B9F001B2B7D /* settings_logo.png */,
+				8095D89616F05B99001B2B7D /* header.png */,
+				8095D89216F05B5F001B2B7D /* button_register_onclick.png */,
+				8095D89016F05B58001B2B7D /* addmore.png */,
+				8025C22C16F0A551008F3696 /* map_logo.png */,
+				8095D88E16F05B4B001B2B7D /* cancelalarm.png */,
+				8025C22516F087A8008F3696 /* tv_enetr_name.png */,
+				8095D88C16F05B44001B2B7D /* cancel.png */,
+				8095D88A16F05B3D001B2B7D /* callpolice.png */,
+				8095D88816F05B38001B2B7D /* raisealarm.png */,
+				8095D89416F05B6D001B2B7D /* safetyalltag.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		80A22F4416F9BAF100AD917E /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				80A22F4A16F9C77D00AD917E /* SafetyAllViewController.h */,
+				80A22F4B16F9C78B00AD917E /* SafetyAllViewController.m */,
+				8084D6CE16FD75810048AAFE /* TabBarController.h */,
+				8084D6CF16FD75810048AAFE /* TabBarController.m */,
+			);
+			name = Registration;
+			sourceTree = "<group>";
+		};
+		80A22F4516F9BB0F00AD917E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80A22F5416F9DEAA00AD917E /* homePage.h */,
+				80A22F5516F9DEAA00AD917E /* homePage.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		80A22F4616F9BB1800AD917E /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				8087E6591701C04600D1E58B /* MapView.h */,
+				8087E65A1701C04600D1E58B /* MapView.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		80A22F4716F9BB2100AD917E /* Helpline */ = {
+			isa = PBXGroup;
+			children = (
+				809547D216FC6E3B000A8D09 /* Helpline.h */,
+				809547D316FC6E3B000A8D09 /* Helpline.m */,
+				809547D516FC6E97000A8D09 /* Help.h */,
+				809547D616FC6E97000A8D09 /* Help.m */,
+			);
+			name = Helpline;
+			sourceTree = "<group>";
+		};
+		80A22F4816F9BB2B00AD917E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				809547D816FC6F6B000A8D09 /* Settings.h */,
+				809547D916FC6F6B000A8D09 /* Settings.m */,
+				809547DB16FC7337000A8D09 /* FavoriteContacts.h */,
+				809547DC16FC7337000A8D09 /* FavoriteContacts.m */,
+				809547DE16FC735C000A8D09 /* AddContact.h */,
+				809547DF16FC735C000A8D09 /* AddContact.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		80A22F4916F9BCFE00AD917E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8093E050170C4B70006DBCC9 /* Services */,
+				80A22F4416F9BAF100AD917E /* Registration */,
+				80A22F4516F9BB0F00AD917E /* Home */,
+				80A22F4616F9BB1800AD917E /* Map */,
+				80A22F4716F9BB2100AD917E /* Helpline */,
+				80A22F4816F9BB2B00AD917E /* Settings */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		80A22F5A16F9F16A00AD917E /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NavigationControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +376,27 @@
 			files = (
 				8095D87116F056E6001B2B7D /* InfoPlist.strings in Resources */,
 				8095D87A16F056E6001B2B7D /* MainStoryboard.storyboard in Resources */,
+				8095D88916F05B38001B2B7D /* raisealarm.png in Resources */,
+				8095D88B16F05B3D001B2B7D /* callpolice.png in Resources */,
+				8095D88D16F05B44001B2B7D /* cancel.png in Resources */,
+				8095D88F16F05B4B001B2B7D /* cancelalarm.png in Resources */,
+				8095D89116F05B58001B2B7D /* addmore.png in Resources */,
+				8095D89316F05B5F001B2B7D /* button_register_onclick.png in Resources */,
+				8095D89516F05B6D001B2B7D /* safetyalltag.png in Resources */,
+				8095D89716F05B99001B2B7D /* header.png in Resources */,
+				8095D89916F05B9F001B2B7D /* settings_logo.png in Resources */,
+				8095D89B16F05BAF001B2B7D /* buttonsmall.png in Resources */,
+				8095D89D16F05BB3001B2B7D /* call2.png in Resources */,
+				8095D89F16F05BB7001B2B7D /* path.png in Resources */,
+				8095D8A116F05BBF001B2B7D /* safetylogo.png in Resources */,
+				8095D8A316F05BC5001B2B7D /* helpline_logo.png in Resources */,
+				8025C22616F087A8008F3696 /* tv_enetr_name.png in Resources */,
+				8025C22916F09F99008F3696 /* help.png in Resources */,
+				8025C22B16F0A4D5008F3696 /* home.png in Resources */,
+				8025C22D16F0A552008F3696 /* map_logo.png in Resources */,
+				8035426E16F1C2FF00EA9B7B /* alert_icon.png in Resources */,
+				80A22F5316F9CFC700AD917E /* Default-568h@2x.png in Resources */,
+				8093E04B170C100E006DBCC9 /* CityNameArray.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +409,16 @@
 			files = (
 				8095D87316F056E6001B2B7D /* main.m in Sources */,
 				8095D87716F056E6001B2B7D /* SafetyAllAppDelegate.m in Sources */,
-				8095D87D16F056E6001B2B7D /* SafetyAllViewController.m in Sources */,
+				80A22F4C16F9C78B00AD917E /* SafetyAllViewController.m in Sources */,
+				80A22F5616F9DEAA00AD917E /* homePage.m in Sources */,
+				809547D416FC6E3B000A8D09 /* Helpline.m in Sources */,
+				809547D716FC6E97000A8D09 /* Help.m in Sources */,
+				809547DA16FC6F6B000A8D09 /* Settings.m in Sources */,
+				809547DD16FC7337000A8D09 /* FavoriteContacts.m in Sources */,
+				809547E016FC735C000A8D09 /* AddContact.m in Sources */,
+				8084D6D016FD75810048AAFE /* TabBarController.m in Sources */,
+				8087E65B1701C04600D1E58B /* MapView.m in Sources */,
+				8093E056170C5678006DBCC9 /* Services.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +530,7 @@
 				8095D88216F056E6001B2B7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
