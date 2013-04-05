@@ -10,11 +10,9 @@
 #import "Services.h"
 
 @interface SafetyAllViewController ()
-
 @end
 
 @implementation SafetyAllViewController
-
 @synthesize nameTf,phoneTf,emailTf,passwordTf;
 @synthesize scrollView;
 
